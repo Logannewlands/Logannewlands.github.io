@@ -54,7 +54,7 @@ h1 {
 .img1 {
   border-radius: 50%;
   max-width: 500px;
-  bottom: -30%;
+  bottom: -20%;
   display: block;
   position: absolute;
   animation: linear infinite alternate;
