@@ -1,0 +1,176 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+  }
+  to {
+    text-shadow: 0 0 20px black, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+  }
+}
+
+.img1 {
+  border-radius: 50%;
+  max-width: 500px;
+  bottom: -30%;
+  display: block;
+  position: absolute;
+  animation: linear infinite alternate;
+  animation-name: run;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+      transform: translateX(0);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(-100%);
+    }
+}
+h2 {
+    text-align: center;
+
+}
+.down1 {
+  padding: 10px;
+  max-width: 500px;
+  margin-top: 350px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.img2 {
+  position: relative; 
+  top: 20px;
+  max-width: 250px;
+  bottom: -5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://t4.ftcdn.net/jpg/05/06/31/65/360_F_506316541_Q1rYABiKAOSwk4LqFIY4yt3hhYOICAQR.jpg");
+  
+}
+.title{
+  background-color: #c3f7f1;
+  border-style: dotted;
+   
+}
+.subtitle2 {
+  text-align: center;
+  color: gray;
+}
+body {
+  background-image: linear-gradient(#77e8f2, #08c2d4);
+}
+
+.mario{
+  background-color:white;
+}
+
+.who {
+    margin: auto;
+background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  border-style: double;
+}
+
+.peach{
+      margin: auto;
+  background-image: linear-gradient(to right, #ff8ff4 , #f035dd); 
+  padding: 10px;
+  max-width: 750px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  border-style: dashed;
+}
+.img3 {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   border-radius: 1000%;
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.thirdtab {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.thirdtab2 {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.photo{
+  width: 300px;
+  border-style: dotted;
+}
+.photwo {
+   width: 300px;
+  border-style: dotted;
+}
